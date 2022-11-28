@@ -33,13 +33,11 @@ from numpy import linalg as LA
 from numpy import inf
 from sklearn.metrics import r2_score # "scikit-learn"
 from calc_gr_ks import *
-from Zclustering import *
 from Sequence_type import *
 from mechanismStyle import *
 from Compare_cluster_functions import *
 from inpolygon import *
 import omori as omori
-import seis_utils as seis_utils
 import warnings
 import matplotlib as mpl
 mpl.rcParams['pdf.fonttype'] = 42
